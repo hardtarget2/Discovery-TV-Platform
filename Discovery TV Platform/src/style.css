@@ -1,0 +1,376 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body {
+  background-image: linear-gradient(
+    to right top,
+    #602179,
+    #812d78,
+    #9c3e77,
+    #b25378,
+    #c36a7c
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  background-image: url('/Discovery TV Platform/img/2560x1440-Underwater Mimic HD988774257.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0px 0px 11px 0px #000000;
+  box-shadow: 0px 0px 11px 0px #000000;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  max-height: fit-content;
+  padding: 0 !important;
+}
+.navbar {
+  width: 100%;
+  background-color: rgba(37, 37, 37, 0.205);
+  /* background-color: red;     for testing edit to shadow*/
+  max-height: 80px;
+  padding: 0 !important;
+  height: 100%;
+}
+.navbar-brand img {
+  height: 150px;
+  width: 150px;
+  transform: translate(50px, -30px);
+}
+.navbar a {
+  text-decoration: none;
+}
+.navbar ul li {
+  color: white;
+  padding-right: 70px;
+}
+.list-group {
+  transform: translate(75px, -30px);
+}
+.list-group a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  
+}
+.list-group a:hover {
+  color: #d96281;
+}
+.bi {
+  transform: translate(75px, -30px);
+  text-decoration: none;
+  color: white;
+}
+.bi:hover {
+  color: #d96281;
+}
+.bi-bell {
+  transform: translate(15px, -30px);
+}
+.log-in {
+  transform: translate(-30px, -30px);
+  text-decoration: none;
+  color: white;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+.log-in:hover {
+  color: #d96281;
+}
+.text-display {
+  color: white;
+  display: inline-block;
+  width: 40%;
+  padding-left: 10%;
+  padding-top: 50px;
+}
+.text-display .science {
+  color: #f2b035;
+  font-size: 1rem;
+  contain: content;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+.text-display h1 {
+  font-size: 3.5rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+}
+.text-display span {
+  color:  #dc6681;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+
+}
+.text-display h3 {
+  font-size: 1rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+.text-display p {
+  font-size: 1rem;
+  line-height: 22px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+}
+.text-display .seasons {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.24);
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.watch-series {
+  background-color: transparent;
+  border-radius: 29px;
+  border: 3px solid #dc6681;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Verdana;
+  font-size: 18px;
+  padding: 16px 15px 16px 20px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
+}
+.watch-series:hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #dc6681;
+}
+.watch-series:active {
+  position: relative;
+  top: 1px;
+}
+.fas {
+  margin-left: 40px;
+  border-radius: 30px;
+  background-color: rgba(220, 102, 129, 0.2);
+}
+.arrow-container {
+  transform: translate(0px, -50px);
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+  margin-left: 114px;
+  bottom: 20px;
+}
+.arrow-container i {
+  margin: 0;
+  display: inline-block !important;
+}
+.arrow-left {
+  /* background-color: yellow; */
+  display: inline-block;
+  width: 12.5%;
+  color: white;
+  background-color: rgba(37, 37, 37, 0.205);
+  translate(-40px, 0px);
+}
+.arrow-left :hover {
+  border: 3px solid #dc6681;
+}
+.arrow-right {
+  /* background-color: orange; */
+  display: inline-block;
+  margin-left: 40px;
+  width: 12.5%;
+  color: white;
+  background-color: rgba(37, 37, 37, 0.205);
+}
+
+.arrow-right :hover {
+  border: 3px solid #dc6681;
+}
+.arrows {
+  transform: translate(0px, 50px);
+}
+.modal-container {
+  display: inline-block;
+  width: 75%;
+}
+.modal-fish {
+  display: inline-block;
+  background-image: url('/Discovery TV Platform/img/photo-1516683037151-9a17603a8dc7.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 260px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border-bottom: 5px solid #f2b035;
+}
+.modal-dog{
+  display: inline-block;
+  background-image: url('/Discovery TV Platform/img/dog.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 260px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border-bottom: 5px solid #f2b035;
+}
+.modal-snake{
+  display: inline-block;
+  background-image: url('/Discovery TV Platform/img/snake.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 260px;
+  margin-right: 15px;
+  border-radius: 10px;
+  border-bottom: 5px solid #f2b035;
+}
+.modal-container {
+  transform: translate(250px, -50px);
+}
+.content{
+  text-align: bottom;
+  color: white;
+  transform: translate(5px, 100px);
+
+}
+.content h2{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  
+}
+.content p{
+  padding-top: 20px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+#clear {
+  clear: both;
+}
